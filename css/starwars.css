@@ -1,0 +1,117 @@
+.secoes1 {
+    background: #E5E5E5;
+    overflow-x: hidden;
+}
+
+.starwars{
+    display: inline-grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2.4%;
+    margin-top: 1%;
+}
+
+.starwars-titulo-principal {
+    width: 148px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-top: 2.5rem;
+    margin-left: 38px;
+    
+}
+
+.starwars-conteudo1 {
+    background-image: url("/img/secaostarwars1.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 174px;
+
+}
+
+.starwars-conteudo2 {
+    background-image: url("/img/secaostarwars2.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 174px;
+
+}
+.starwars-conteudo3 {
+    background-image: url("/img/secaostarwars3.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 174px;
+
+}
+
+.starwars-conteudo4 {
+    background-image: url("/img/secaostarwars4.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 174px;
+
+}
+
+.starwars-conteudo5 {
+    background-image: url("/img/secaostarwars5.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 174px;
+
+}
+
+.starwars-conteudo6 {
+    background-image: url("/img/secaostarwars6.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 174px;
+
+}
+
+.starwars-preco {
+    width: 176px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 3%;
+
+}
+
+.starwars-botao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+    border: none;
+    background-color: #E5E5E5;
+}
+
+.starwars-botao:hover {
+    cursor: pointer;
+}
+
+.starwars-titulo {
+    width: 176px;
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+.starwars-conteudo {
+  padding: 5%;
+
+}
+
+

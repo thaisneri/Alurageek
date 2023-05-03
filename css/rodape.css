@@ -1,0 +1,112 @@
+.rodape {
+   background-color: #EAF2FD;
+   overflow-x: hidden;
+
+}
+
+.logo {
+    background-image: url("/img/Logo.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 210px;
+  /*  background-color: tomato; */
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 35px;
+
+
+}
+
+
+.lista {
+    justify-content: space-around;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+   /* background-color: aqua; */
+    display: inline-block;
+    width: 250px;
+    height: 240px;
+    margin-left: 25px;
+
+
+}
+
+.form {
+   /*  background-color: black; */
+    display: inline-block;
+    justify-content: space-between;
+    width: 580px;
+    height: 260px;
+    font-size: 16px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.form-titulo {
+    width: 560px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+
+}
+
+
+.form-input {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 560px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-color: #FFFFFF;
+    border-style: none;
+}
+.form-texto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 560px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-color: #FFFFFF;
+    border-style: none;
+    resize: none;
+}
+.form-botao {
+    width: 165px;
+    height: 51px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2A7AE4;
+    margin-bottom: 10px;
+    border-color: #2A7AE4;
+}
+
+.desenvolvimento {
+    height: 75px;
+}
+
+.desenvolvimento-conteudo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center; 
+    padding: 3%;
+}

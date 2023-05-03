@@ -1,0 +1,51 @@
+.banner {
+    overflow-x: hidden;
+    background-color: #E5E5E5;
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+}
+
+.banner-titulo {
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61.05px;
+    top: 41%;
+    position: absolute;
+    left: 40px;
+}
+
+.banner-texto {
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    top: 54%;
+    position: absolute;
+    left: 40px;
+}
+
+.banner-botao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px;
+    gap: 10px;
+    background: #2A7AE4;
+    color: white;
+    border-color: #2A7AE4;
+    height: 51px;
+    top: 60%;
+    left: 40px;
+    position: absolute;
+}
+
