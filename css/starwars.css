@@ -26,7 +26,7 @@
 }
 
 .starwars-conteudo1 {
-    background-image: url("/img/secaostarwars1.png");
+    background-image: url("./img/secaostarwars1.png");
     background-repeat: no-repeat;
     width: 176px;
     height: 174px;
@@ -34,14 +34,14 @@
 }
 
 .starwars-conteudo2 {
-    background-image: url("/img/secaostarwars2.png");
+    background-image: url("./img/secaostarwars2.png");
     background-repeat: no-repeat;
     width: 176px;
     height: 174px;
 
 }
 .starwars-conteudo3 {
-    background-image: url("/img/secaostarwars3.png");
+    background-image: url("./img/secaostarwars3.png");
     background-repeat: no-repeat;
     width: 176px;
     height: 174px;
@@ -49,7 +49,7 @@
 }
 
 .starwars-conteudo4 {
-    background-image: url("/img/secaostarwars4.png");
+    background-image: url("./img/secaostarwars4.png");
     background-repeat: no-repeat;
     width: 176px;
     height: 174px;
@@ -57,7 +57,7 @@
 }
 
 .starwars-conteudo5 {
-    background-image: url("/img/secaostarwars5.png");
+    background-image: url("./img/secaostarwars5.png");
     background-repeat: no-repeat;
     width: 176px;
     height: 174px;
@@ -65,7 +65,7 @@
 }
 
 .starwars-conteudo6 {
-    background-image: url("/img/secaostarwars6.png");
+    background-image: url("./img/secaostarwars6.png");
     background-repeat: no-repeat;
     width: 176px;
     height: 174px;
