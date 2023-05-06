@@ -34,3 +34,63 @@
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
 }
+
+@media (min-width: 0px) {
+    .nav {
+        flex-direction: row;
+        display: flex;
+        order: 1;
+        padding: 15px;
+
+    }
+
+    .login {
+        width: 100px;
+        order: 2;
+        position: relative; top: 5px; left: 100px;
+
+    }
+
+    .caixa {
+        width: 22px;        
+        background-color: #FFFFFF;
+        order: 3;
+        position: relative; top: 2px; left: 60px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .nav {
+        flex-direction: row;
+        order: 1;
+        display:flex;
+
+    }
+
+    .caixa {
+        width: 350px;
+        background-color: #F5F5F5;
+        order: 2;
+        position: relative; top: 1px; left: 110px;
+    }
+
+    .login {
+        width: 150px;
+        order: 3;
+        position: relative; top: 1px; left: 70px;
+    }
+    
+
+}
+
+/*
+@media (min-width: 1024px) {
+    .academico__c {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+        
