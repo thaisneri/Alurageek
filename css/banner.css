@@ -1,12 +1,12 @@
-.banner {
-    overflow-x: hidden;
-    background-color: #E5E5E5;
-}
 
 .banner-img {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
     position: relative;
-    width: 100%;
 }
+
 
 .banner-titulo {
     color: white;
@@ -14,10 +14,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
-    line-height: 61.05px;
-    top: 41%;
-    position: absolute;
-    left: 40px;
+    margin: 1%;
+    
 }
 
 .banner-texto {
@@ -26,10 +24,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 25.83px;
-    top: 54%;
-    position: absolute;
-    left: 40px;
+    margin: 1%;
+
 }
 
 .banner-botao {
@@ -37,15 +33,47 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     padding: 16px;
-    gap: 10px;
     background: #2A7AE4;
     color: white;
     border-color: #2A7AE4;
-    height: 51px;
-    top: 60%;
-    left: 40px;
-    position: absolute;
+    margin: 1%;
+
 }
 
+@media (max-width: 414px) {
+    .banner-img {
+        padding: 20px;
+        height: 100px;
+        }
+
+        .banner-titulo {
+            font-size: 22px;
+            margin: 3%;
+            
+        }
+        
+        .banner-texto {
+            font-weight: 600;
+            font-size: 14px;
+            margin: 3%;
+        
+        }
+        .banner-botao {
+            padding: 10px;
+            font-size: 11px;
+            width: 105px;
+            font-weight: 400;
+            margin: 3%;
+        }
+}
+
+
+@media (min-width: 768px) {
+
+    .banner-img {
+        padding: 50px;
+        height: 180px;
+        }
+
+}
