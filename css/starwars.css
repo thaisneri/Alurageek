@@ -115,3 +115,33 @@
 }
 
 
+@media (max-width: 414px) {
+    .responsivo{
+        display: none;
+    }
+    .starwars {
+        display: inline-grid;
+        width: 173px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .responsivo{
+        display: none;
+    }
+    .starwars {
+        display: inline-grid;
+        width: 168px;
+
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .responsivo {
+        display: inline;
+
+    }
+
+}

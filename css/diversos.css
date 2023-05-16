@@ -113,3 +113,20 @@
   padding: 5%;
 
 }
+
+@media (max-width: 414px) {
+    .diversos {
+        display: inline-grid;
+        width: 173px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .diversos {
+        display: inline-grid;
+        width: 168px;
+
+    }
+
+}
