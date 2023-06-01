@@ -7,7 +7,7 @@
     display: inline-grid;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 2.4%;
+    margin-left: 2.9%;
     margin-top: 1%;
 }
 
@@ -23,6 +23,32 @@
     margin-top: 2.5rem;
     margin-left: 38px;
     
+}
+
+.botao-ver-tudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-tudo {
+    background-image: url("../img/seta.png");
+    background-repeat: no-repeat;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+    border: none;
+    background-color: #E5E5E5;
+    background-position: right 15% bottom 48%;
+    background-size: 0.8em;
+    padding-right: 34px;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.botao-tudo:hover {
+    cursor: pointer;
 }
 
 .starwars-conteudo1 {
@@ -84,6 +110,7 @@
 
 }
 
+
 .starwars-botao {
     font-family: 'Raleway';
     font-style: normal;
@@ -121,7 +148,15 @@
     }
     .starwars {
         display: inline-grid;
-        width: 173px;
+        width: 168px;
+    }
+    .botao-ver-tudo {
+        display:flex;
+    }
+
+    .botao-tudo {
+        margin-right: 1%;
+        margin-top: 12%;
     }
 }
 
@@ -132,16 +167,21 @@
     }
     .starwars {
         display: inline-grid;
-        width: 168px;
+        width: 161px;
 
     }
-
+    .botao-tudo {
+        margin-right: 1%;
+        margin-top: 8%;
+    }
 }
 
 @media (min-width: 1024px) {
     .responsivo {
         display: inline;
-
     }
-
+    .botao-tudo {
+        margin-right: 5%;
+        margin-top: 4%;
+    }
 }

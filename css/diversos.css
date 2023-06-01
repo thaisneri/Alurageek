@@ -7,7 +7,7 @@
     display: inline-grid;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 2.4%;
+    margin-left: 2.9%;
     margin-top: 1%;
     margin-bottom: 5%;
 }
@@ -117,7 +117,7 @@
 @media (max-width: 414px) {
     .diversos {
         display: inline-grid;
-        width: 173px;
+        width: 168px;
     }
 }
 
@@ -125,7 +125,7 @@
 
     .diversos {
         display: inline-grid;
-        width: 168px;
+        width: 161px;
 
     }
 
