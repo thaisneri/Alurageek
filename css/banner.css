@@ -41,6 +41,11 @@
 
 }
 
+.banner-botao:hover {
+    cursor: pointer;
+}
+
+
 @media (max-width: 414px) {
     .banner-img {
         padding: 20px;

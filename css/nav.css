@@ -35,6 +35,11 @@
     border: 1px solid #2A7AE4;
 }
 
+.login:hover {
+    cursor: pointer;
+}
+
+
 @media (min-width: 0px) {
     .nav {
         flex-direction: row;

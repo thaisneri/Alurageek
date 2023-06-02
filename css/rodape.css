@@ -45,6 +45,7 @@
     margin-top: 50px;
 }
 
+
 .form-titulo {
     width: 560px;
     height: 19px;
@@ -96,6 +97,11 @@
     margin-bottom: 10px;
     border-color: #2A7AE4;
 }
+
+.form-botao:hover {
+    cursor: pointer;
+}
+
 
 .desenvolvimento {
     height: 75px;
