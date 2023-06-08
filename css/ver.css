@@ -1,0 +1,40 @@
+.ver {
+    background: #E5E5E5;
+    width: 100%;
+    height: 740px;
+    overflow-x: hidden;
+}
+
+.ver-titulo-principal {
+    width: 300px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-top: 2.5rem;
+    margin-left: 30px;
+    
+}
+
+.ver-imagem {
+    background-color: blueviolet;
+    height: 303px;
+    width: 460px;
+}
+
+.ver-conteudo {
+    background-color: blue;
+    height: 303px;
+    width: 700px;
+    font-size: 16px;
+    margin-right: 50px;
+
+}
+
+.ver-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+}

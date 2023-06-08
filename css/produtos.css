@@ -1,0 +1,27 @@
+.produtos-titulo-principal {
+    width: 350px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-top: 2.7rem;
+    margin-left: 32px;
+    display: inline;
+    
+}
+
+.produtos-botao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px;
+    background: #2A7AE4;
+    color: white;
+    border-color: #2A7AE4;
+    margin: 1%;
+    margin-right: 68px;
+}

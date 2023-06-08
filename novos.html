@@ -14,21 +14,26 @@
     <link rel="stylesheet" href="./css/rodape.css">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/produtos.css">
+    <link rel="stylesheet" href="./css/novos.css">
 </head>
 
 <body>
     <header class="nav2">
         <input class="caixa2" type="search" name="search" class="search-input" placeholder="    O que deseja encontrar?" list="options">
+        <button onclick="window.location.href =''" class="menu">Menu administrador</button>
     </header>
 
     <main>
-        <section class="form2">
-            <div class="form2-div">
+        <section class="novos">
+            <div class="novos-div">
                 <form >
-                    <h1 class="form2-titulo" for="">Iniciar sessão</h1>
-                    <input class="form2-input" type="email" placeholder="Escreva seu email" required>
-                    <input class="form2-input" type="password" placeholder="Escreva sua senha" required>
-                    <button class="form2-botao">Entrar</button>
+                    <h1 class="novos-titulo">Adicionar novo produto</h1>
+                    <input class="novos-input" type="email" placeholder="URL da imagem" required>
+                    <input class="novos-input" type="password" placeholder="Categoria" required>
+                    <input class="novos-input" type="password" placeholder="Nome do produto" required>
+                    <input class="novos-input" type="password" placeholder="Preço do produto" required>
+                    <textarea class="novos-texto" id="" cols="3" rows="5" placeholder="Descrição do produto" required></textarea>
+                    <button class="novos-botao">Adicionar produto</button>
                 </form>
             </div>
         </section>
